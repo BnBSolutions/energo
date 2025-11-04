@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Building2, Sun, Moon } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useI18n, Language, languages, languageNames } from '@/lib/i18n';
+import energoLogo from '@/assets/energo-logo.avif';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -59,11 +60,12 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-medium">
-              <Building2 className="w-6 h-6 text-white" />
-            </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent hidden sm:block">Energoreparații</span>
+          <Link to="/" className="flex items-center gap-3 group">
+            <img 
+              src={energoLogo} 
+              alt="Energoreparații" 
+              className="h-12 w-auto transition-all duration-300 group-hover:scale-105"
+            />
           </Link>
 
           {/* Desktop Navigation */}
