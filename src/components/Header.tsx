@@ -131,17 +131,17 @@ export const Header = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-border/50 bg-card/95 backdrop-blur-lg animate-fade-in shadow-medium">
-            <nav className="flex flex-col gap-2">
+          <div className="lg:hidden absolute top-full left-4 right-4 mt-2 py-6 px-4 rounded-2xl border border-border/50 bg-card/98 backdrop-blur-xl animate-fade-in shadow-large">
+            <nav className="flex flex-col gap-3">
               {navItems.map((item) => (
                 <Link
                   key={item.key}
                   to={item.path}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-all ${
+                  className={`px-5 py-3.5 rounded-xl text-sm font-medium transition-all ${
                     isActive(item.path)
-                      ? 'bg-primary/15 text-primary shadow-soft'
-                      : 'text-foreground/70 hover:text-foreground hover:bg-muted/80'
+                      ? 'bg-gradient-primary text-white shadow-soft scale-[1.02]'
+                      : 'text-foreground/70 hover:text-foreground hover:bg-muted/80 hover:scale-[1.02]'
                   }`}
                 >
                   {t(`nav.${item.key}`)}
