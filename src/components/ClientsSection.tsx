@@ -12,7 +12,7 @@ export const ClientsSection = () => {
     {
       name: "Kellers",
       description: "Kellers Moldova Brewery",
-      logo: "/images/clients/kellers-logo.jpg"
+      logo: "/images/clients/kellers-logo.png"
     },
     {
       name: "Termoelectrica",
