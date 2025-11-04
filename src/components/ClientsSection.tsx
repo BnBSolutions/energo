@@ -7,22 +7,22 @@ export const ClientsSection = () => {
     {
       name: "McDonald's",
       description: "Restaurante McDonalds Chișinău",
-      logo: "/images/clients/mcdonalds-logo.png?v=2"
+      logo: "images/clients/mcdonalds-logo.png?v=2"
     },
     {
       name: "Kellers",
       description: "Kellers Moldova Brewery",
-      logo: "/images/clients/kellers-logo.png?v=2"
+      logo: "images/clients/kellers-logo.png?v=2"
     },
     {
       name: "Termoelectrica",
       description: "Furnizor de energie electrică și termică",
-      logo: "/images/clients/termoelectrica-logo.jpg?v=2"
+      logo: "images/clients/termoelectrica-logo.jpg?v=2"
     },
     {
       name: "Farmacia Familiei",
       description: "Rețea de farmacii din Republica Moldova",
-      logo: "/images/clients/farmacia-familiei-logo.png?v=2"
+      logo: "images/clients/farmacia-familiei-logo.png?v=2"
     }
   ];
 
