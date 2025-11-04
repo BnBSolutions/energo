@@ -2,6 +2,7 @@ import { Hero } from '@/components/Hero';
 import { KPIStrip } from '@/components/KPIStrip';
 import { ServicesGrid } from '@/components/ServicesGrid';
 import { WhyUs } from '@/components/WhyUs';
+import { ClientsSection } from '@/components/ClientsSection';
 import { CTASection } from '@/components/CTASection';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <KPIStrip />
       <ServicesGrid />
       <WhyUs />
+      <ClientsSection />
       <CTASection />
     </>
   );

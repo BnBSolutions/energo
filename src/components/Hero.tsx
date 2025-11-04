@@ -16,7 +16,7 @@ export const Hero = () => {
           alt="Industrial facility" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-background/95 via-background/90 to-background/85" />
+        <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/75 to-background/70" />
       </div>
       
       {/* Animated grid pattern */}
