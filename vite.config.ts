@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/energo/",
+  base: "./",
   plugins: [react()].filter(Boolean),
   resolve: {
     alias: {
