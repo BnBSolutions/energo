@@ -18,11 +18,6 @@ export const detectLanguage = (): Language => {
     return stored;
   }
   
-  const browserLang = navigator.language.toLowerCase();
-  if (browserLang.startsWith('ro')) return 'ro';
-  if (browserLang.startsWith('ru')) return 'ru';
-  if (browserLang.startsWith('en')) return 'en';
-  
   return 'ro';
 };
 
