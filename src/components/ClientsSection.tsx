@@ -7,7 +7,7 @@ export const ClientsSection = () => {
     {
       name: "McDonald's",
       description: "Restaurante McDonalds Chișinău",
-      logo: "/images/clients/mcdonalds-logo.png?v=3"
+      logo: "/images/clients/mcdonalds-logo.png?v=2"
     },
     {
       name: "Kellers",
