@@ -115,7 +115,15 @@ export const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Energoreparații. {t('footer.rights')}
+            © {new Date().getFullYear()} Energoreparații. {t('footer.rights')} | Made by{' '}
+            <a 
+              href="https://bnb-solutions.dev/#" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:underline font-medium"
+            >
+              BnB-Solutions
+            </a>
           </p>
         </div>
       </div>
