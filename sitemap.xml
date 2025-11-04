@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Home Pages -->
+  <url>
+    <loc>https://energo.md/</loc>
+    <xhtml:link rel="alternate" hreflang="ro-MD" href="https://energo.md/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://energo.md/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energo.md/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energo.md/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Pages -->
+  <url>
+    <loc>https://energo.md/about</loc>
+    <xhtml:link rel="alternate" hreflang="ro-MD" href="https://energo.md/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://energo.md/en/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energo.md/ru/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services Pages -->
+  <url>
+    <loc>https://energo.md/services</loc>
+    <xhtml:link rel="alternate" hreflang="ro-MD" href="https://energo.md/services" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://energo.md/en/services" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energo.md/ru/services" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Spaces Listing Pages -->
+  <url>
+    <loc>https://energo.md/spaces</loc>
+    <xhtml:link rel="alternate" hreflang="ro-MD" href="https://energo.md/spaces" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://energo.md/en/spaces" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energo.md/ru/spaces" />
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contact Pages -->
+  <url>
+    <loc>https://energo.md/contact</loc>
+    <xhtml:link rel="alternate" hreflang="ro-MD" href="https://energo.md/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://energo.md/en/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energo.md/ru/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Individual Space Detail Pages -->
+  <url>
+    <loc>https://energo.md/spaces/birou-central-chisinau</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://energo.md/spaces/depozit-botanica</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://energo.md/spaces/spatiu-productie-ciocana</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://energo.md/spaces/spatiu-comercial-rascani</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://energo.md/spaces/birou-premium-buiucani</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://energo.md/spaces/depozit-frigorific-sculeni</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
