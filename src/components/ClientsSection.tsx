@@ -29,22 +29,22 @@ export const ClientsSection = () => {
   return (
     <section className="py-16 lg:py-24 bg-muted/30">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            {t('clients.title')}
-          </h2>
-          <p className="text-lg text-muted-foreground">
-            {t('clients.subtitle')}
-          </p>
-        </div>
+      <div className="text-center mb-12 md:animate-fade-in">
+        <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+          {t('clients.title')}
+        </h2>
+        <p className="text-lg text-muted-foreground">
+          {t('clients.subtitle')}
+        </p>
+      </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 max-w-5xl mx-auto">
-          {clients.map((client, index) => (
-            <div
-              key={client.name}
-              className="bg-background rounded-2xl p-8 flex flex-col items-center justify-center text-center shadow-soft hover:shadow-medium transition-all duration-300 animate-fade-in group"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 max-w-5xl mx-auto">
+        {clients.map((client, index) => (
+          <div
+            key={client.name}
+            className="bg-background rounded-2xl p-8 flex flex-col items-center justify-center text-center shadow-soft hover:shadow-medium transition-all duration-300 md:animate-fade-in group"
+            style={{ animationDelay: `${index * 0.1}s` }}
+          >
               <div className="w-full h-24 mb-4 flex items-center justify-center">
                 <img
                   src={client.logo}
