@@ -42,8 +42,8 @@ export const ClientsSection = () => {
         {clients.map((client, index) => (
           <div
             key={client.name}
-            className="bg-background rounded-2xl p-8 flex flex-col items-center justify-center text-center shadow-soft hover:shadow-medium transition-all duration-300 md:animate-fade-in group"
-            style={{ animationDelay: `${index * 0.1}s` }}
+            className="bg-background rounded-2xl p-8 flex flex-col items-center justify-center text-center shadow-soft hover:shadow-medium transition-all duration-300 opacity-100 md:opacity-0 md:animate-fade-in group"
+            style={{ animationDelay: window.innerWidth >= 768 ? `${index * 0.1}s` : '0s' }}
           >
               <div className="w-full h-24 mb-4 flex items-center justify-center">
                 <img
