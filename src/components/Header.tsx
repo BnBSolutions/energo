@@ -42,6 +42,7 @@ export const Header = () => {
     { key: 'home', path: '/' },
     { key: 'about', path: '/about' },
     { key: 'services', path: '/services' },
+    { key: 'spaces', path: '/spaces' },
     { key: 'contact', path: '/contact' },
   ];
 
@@ -115,11 +116,6 @@ export const Header = () => {
               {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
             </Button>
 
-            {/* CTA Button */}
-            <Button asChild className="hidden lg:flex bg-gradient-primary hover:opacity-90 shadow-soft hover:shadow-medium transition-all">
-              <Link to="/spaces">{t('hero.cta_spaces')}</Link>
-            </Button>
-
             {/* Mobile Menu Toggle */}
             <Button
               variant="ghost"
@@ -151,11 +147,6 @@ export const Header = () => {
                   {t(`nav.${item.key}`)}
                 </Link>
               ))}
-              <Button asChild className="mt-2 bg-gradient-primary shadow-soft hover:shadow-medium transition-all">
-                <Link to="/spaces" onClick={() => setIsMobileMenuOpen(false)}>
-                  {t('hero.cta_spaces')}
-                </Link>
-              </Button>
             </nav>
           </div>
         )}
