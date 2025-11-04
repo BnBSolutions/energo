@@ -42,7 +42,6 @@ export const Header = () => {
     { key: 'home', path: '/' },
     { key: 'about', path: '/about' },
     { key: 'services', path: '/services' },
-    { key: 'spaces', path: '/spaces' },
     { key: 'contact', path: '/contact' },
   ];
 
