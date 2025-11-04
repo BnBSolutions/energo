@@ -1,0 +1,170 @@
+[
+  {
+    "id": "space-1",
+    "slug": "birou-central-chisinau",
+    "title": {
+      "ro": "Birou Modern – Centru, Chișinău",
+      "en": "Modern Office – Center, Chisinau",
+      "ru": "Современный Офис – Центр, Кишинев"
+    },
+    "zone": "Centru",
+    "type": "office",
+    "area_m2": 180,
+    "price_eur_month": 1800,
+    "available": true,
+    "address": "Strada Ștefan cel Mare 154, Chișinău",
+    "coords": { "lat": 47.0245, "lng": 28.8353 },
+    "amenities": ["HVAC", "Parcare", "Lift", "Fibră optică", "Securitate 24/7"],
+    "floor": 4,
+    "height_m": 3.2,
+    "electrical_kw": 50,
+    "parking_spots": 5,
+    "built_year": 2018,
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "description": {
+      "ro": "Spațiu modern ideal pentru echipe de 10–20 persoane. Situat în centrul orașului cu acces excelent la transportul public și facilități. Amenajare open-space cu sală de conferințe dedicată. Finisaje premium și climatizare individuală.",
+      "en": "Modern space ideal for teams of 10–20 people. Located in the city center with excellent access to public transport and amenities. Open-space layout with dedicated conference room. Premium finishes and individual air conditioning.",
+      "ru": "Современное помещение, идеально для команд из 10–20 человек. Расположено в центре города с отличным доступом к общественному транспорту и удобствам. Планировка open-space с отдельной конференц-залой. Премиум отделка и индивидуальное кондиционирование."
+    }
+  },
+  {
+    "id": "space-2",
+    "slug": "depozit-botanica",
+    "title": {
+      "ro": "Depozit Modern – Botanica, Chișinău",
+      "en": "Modern Warehouse – Botanica, Chisinau",
+      "ru": "Современный Склад – Ботаника, Кишинев"
+    },
+    "zone": "Botanica",
+    "type": "warehouse",
+    "area_m2": 850,
+    "price_eur_month": 4250,
+    "available": true,
+    "address": "Strada Grenoble 123, Chișinău",
+    "coords": { "lat": 47.0167, "lng": 28.8497 },
+    "amenities": ["Rampă de încărcare", "Lift marfă", "HVAC", "Securitate 24/7", "Acces TIR"],
+    "floor": 1,
+    "height_m": 6.5,
+    "electrical_kw": 150,
+    "parking_spots": 15,
+    "built_year": 2020,
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "description": {
+      "ro": "Depozit cu facilități moderne, perfect pentru logistică și distribuție. Înălțime utilă de 6.5m, rampă de încărcare și acces direct pentru camioane. Sistem de securitate și monitorizare complet. Platformă de descărcare acoperită.",
+      "en": "Warehouse with modern facilities, perfect for logistics and distribution. Useful height of 6.5m, loading ramp and direct truck access. Complete security and monitoring system. Covered loading platform.",
+      "ru": "Склад с современным оборудованием, идеально для логистики и дистрибуции. Полезная высота 6.5м, погрузочная рампа и прямой доступ для грузовиков. Полная система безопасности и мониторинга. Крытая погрузочная платформа."
+    }
+  },
+  {
+    "id": "space-3",
+    "slug": "spatiu-productie-ciocana",
+    "title": {
+      "ro": "Spațiu Producție – Ciocana, Chișinău",
+      "en": "Production Space – Ciocana, Chisinau",
+      "ru": "Производственное Помещение – Чокана, Кишинев"
+    },
+    "zone": "Ciocana",
+    "type": "production",
+    "area_m2": 1200,
+    "price_eur_month": null,
+    "available": true,
+    "address": "Strada Industrială 45, Chișinău",
+    "coords": { "lat": 47.0411, "lng": 28.8767 },
+    "amenities": ["Încărcare electrică mare", "Ventilație industrială", "Pod rulant", "Parcare extinsă", "Acces TIR"],
+    "floor": 1,
+    "height_m": 8.0,
+    "electrical_kw": 500,
+    "parking_spots": 30,
+    "built_year": 2015,
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "description": {
+      "ro": "Hală de producție modernă cu capacitate electrică extinsă și pod rulant 5 tone. Ideală pentru producție ușoară și medie. Amplasare cu acces excelent și vizibilitate bună. Posibilitate extindere.",
+      "en": "Modern production hall with extended electrical capacity and 5-ton overhead crane. Ideal for light and medium production. Location with excellent access and good visibility. Extension possibility.",
+      "ru": "Современный производственный цех с расширенной электрической мощностью и мостовым краном 5 тонн. Идеально для легкого и среднего производства. Расположение с отличным доступом и хорошей видимостью. Возможность расширения."
+    }
+  },
+  {
+    "id": "space-4",
+    "slug": "spatiu-comercial-rascani",
+    "title": {
+      "ro": "Spațiu Comercial – Râșcani, Chișinău",
+      "en": "Commercial Space – Rascani, Chisinau",
+      "ru": "Коммерческое Помещение – Рышкановка, Кишинев"
+    },
+    "zone": "Râșcani",
+    "type": "commercial",
+    "area_m2": 250,
+    "price_eur_month": 3000,
+    "available": true,
+    "address": "Bulevardul Moscova 10, Chișinău",
+    "coords": { "lat": 47.0504, "lng": 28.8575 },
+    "amenities": ["Vitrină stradală", "Parcare", "Climatizare", "Securitate", "Internet"],
+    "floor": 0,
+    "height_m": 4.0,
+    "electrical_kw": 80,
+    "parking_spots": 10,
+    "built_year": 2019,
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "description": {
+      "ro": "Spațiu comercial în zonă cu trafic intens, perfect pentru showroom, magazin sau servicii. Vitrină generoasă pe stradă principală, finisaje moderne, amenajare flexibilă. Trafic pietonal ridicat.",
+      "en": "Commercial space in high-traffic area, perfect for showroom, store or services. Generous street-facing window on main street, modern finishes, flexible layout. High foot traffic.",
+      "ru": "Коммерческое помещение в зоне с интенсивным трафиком, идеально для шоурума, магазина или услуг. Большая витрина на главной улице, современная отделка, гибкая планировка. Высокий пешеходный трафик."
+    }
+  },
+  {
+    "id": "space-5",
+    "slug": "birou-premium-buiucani",
+    "title": {
+      "ro": "Birou Premium – Buiucani, Chișinău",
+      "en": "Premium Office – Buiucani, Chisinau",
+      "ru": "Премиум Офис – Буюканы, Кишинев"
+    },
+    "zone": "Buiucani",
+    "type": "office",
+    "area_m2": 320,
+    "price_eur_month": 3840,
+    "available": false,
+    "address": "Strada Alba Iulia 75, Chișinău",
+    "coords": { "lat": 47.0367, "lng": 28.8122 },
+    "amenities": ["HVAC", "Parcare subterană", "Lift", "Recepție", "Sală conferințe", "Fibră optică"],
+    "floor": 7,
+    "height_m": 3.0,
+    "electrical_kw": 75,
+    "parking_spots": 8,
+    "built_year": 2021,
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "description": {
+      "ro": "Birou premium în clădire de clasă A cu recepție 24/7, sală de conferințe comună și terasă pe acoperiș. Amenajare modernă tip open-space cu birouri închise. Vedere panoramică asupra orașului.",
+      "en": "Premium office in class A building with 24/7 reception, shared conference room and rooftop terrace. Modern open-space layout with closed offices. Panoramic city view.",
+      "ru": "Премиум офис в здании класса А с круглосуточной стойкой регистрации, общим конференц-залом и террасой на крыше. Современная планировка open-space с отдельными кабинетами. Панорамный вид на город."
+    }
+  },
+  {
+    "id": "space-6",
+    "slug": "depozit-frigorific-sculeni",
+    "title": {
+      "ro": "Depozit Frigorific – Sculeni",
+      "en": "Cold Storage Warehouse – Sculeni",
+      "ru": "Холодильный Склад – Скулень"
+    },
+    "zone": "Sculeni",
+    "type": "warehouse",
+    "area_m2": 1500,
+    "price_eur_month": null,
+    "available": true,
+    "address": "Strada Portului 12, Sculeni",
+    "coords": { "lat": 47.8489, "lng": 28.7797 },
+    "amenities": ["Camere frigorifice", "Rampă încărcare", "Generatoare backup", "Securitate 24/7", "Acces TIR"],
+    "floor": 1,
+    "height_m": 5.5,
+    "electrical_kw": 300,
+    "parking_spots": 20,
+    "built_year": 2017,
+    "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    "description": {
+      "ro": "Depozit frigorific modern cu multiple zone de temperatură (-25°C până la +15°C). Sistemul de refrigerare redundant cu generatoare de rezervă. Certificat pentru produse alimentare. Poziție strategică lângă frontieră.",
+      "en": "Modern cold storage with multiple temperature zones (-25°C to +15°C). Redundant refrigeration system with backup generators. Certified for food products. Strategic position near border.",
+      "ru": "Современный холодильный склад с несколькими температурными зонами (-25°C до +15°C). Резервная система охлаждения с генераторами. Сертифицирован для пищевых продуктов. Стратегическое положение у границы."
+    }
+  }
+]
