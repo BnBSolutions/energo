@@ -29,7 +29,7 @@ export const ClientsSection = () => {
   return (
     <section className="py-16 lg:py-24 bg-muted/30">
       <div className="container mx-auto px-4">
-      <div className="text-center mb-12 md:animate-fade-in">
+      <div className="text-center mb-12 animate-none md:animate-fade-in">
         <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
           {t('clients.title')}
         </h2>
@@ -42,8 +42,7 @@ export const ClientsSection = () => {
         {clients.map((client, index) => (
           <div
             key={client.name}
-            className="bg-background rounded-2xl p-8 flex flex-col items-center justify-center text-center shadow-soft hover:shadow-medium transition-all duration-300 opacity-100 md:opacity-0 md:animate-fade-in group"
-            style={{ animationDelay: window.innerWidth >= 768 ? `${index * 0.1}s` : '0s' }}
+            className="bg-background rounded-2xl p-8 flex flex-col items-center justify-center text-center shadow-soft hover:shadow-medium transition-all duration-300 animate-none md:animate-fade-in group"
           >
               <div className="w-full h-24 mb-4 flex items-center justify-center">
                 <img
