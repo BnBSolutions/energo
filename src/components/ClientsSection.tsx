@@ -12,12 +12,12 @@ export const ClientsSection = () => {
     {
       name: "Kellers",
       description: "Kellers Moldova Brewery",
-      logo: "/images/clients/kellers-logo.png"
+      logo: "/images/clients/kellers-logo.jpg"
     },
     {
       name: "Termoelectrica",
       description: "Furnizor de energie electrică și termică",
-      logo: "/images/clients/termoelectrica-logo.svg"
+      logo: "/images/clients/termoelectrica-logo.jpg"
     },
     {
       name: "Farmacia Familiei",
