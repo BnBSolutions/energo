@@ -64,7 +64,7 @@ export const Header = () => {
             <img 
               src={energoLogo} 
               alt="Energoreparații" 
-              className="h-12 w-auto transition-all duration-300 group-hover:scale-105"
+              className="h-12 w-auto transition-all duration-300 group-hover:scale-105 dark:brightness-0 dark:invert"
             />
           </Link>
 
