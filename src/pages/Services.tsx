@@ -9,12 +9,12 @@ const Services = () => {
   const { t } = useI18n();
 
   const services = [
-    { icon: Zap, key: 'energy_engineering', color: 'text-primary', bgColor: 'bg-primary/10' },
-    { icon: PenTool, key: 'design', color: 'text-accent', bgColor: 'bg-accent/10' },
-    { icon: Hammer, key: 'execution', color: 'text-primary', bgColor: 'bg-primary/10' },
-    { icon: Wrench, key: 'maintenance', color: 'text-accent', bgColor: 'bg-accent/10' },
-    { icon: FileSearch, key: 'audit', color: 'text-primary', bgColor: 'bg-primary/10' },
-    { icon: MessageSquare, key: 'consulting', color: 'text-accent', bgColor: 'bg-accent/10' },
+    { icon: Zap, key: 'engineering_systems', color: 'text-primary', bgColor: 'bg-primary/10' },
+    { icon: PenTool, key: 'metal_processing', color: 'text-accent', bgColor: 'bg-accent/10' },
+    { icon: Hammer, key: 'energy_equipment', color: 'text-primary', bgColor: 'bg-primary/10' },
+    { icon: Wrench, key: 'heating_systems', color: 'text-accent', bgColor: 'bg-accent/10' },
+    { icon: FileSearch, key: 'ventilation', color: 'text-primary', bgColor: 'bg-primary/10' },
+    { icon: MessageSquare, key: 'sanitary', color: 'text-accent', bgColor: 'bg-accent/10' },
   ];
 
   const process = [

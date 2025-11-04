@@ -7,8 +7,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Energie & infrastructură pentru afacerea ta",
-    "subtitle": "Proiectăm, construim și administrăm soluții fiabile. Descoperă și spațiile noastre de închiriat.",
+    "title": "Reparații și instalații pentru infrastructura ta",
+    "subtitle": "Reparații echipament energetic, sisteme de încălzire, rețele de apeduct și canalizare. Parte a grupului Promstroi.",
     "cta_spaces": "Vezi spațiile",
     "cta_contact": "Contactează-ne"
   },
@@ -21,18 +21,18 @@
   "services": {
     "title": "Serviciile Noastre",
     "subtitle": "Soluții complete de la proiectare la execuție și mentenanță",
-    "energy_engineering": "Inginerie Energetică",
-    "energy_engineering_desc": "Proiectare și implementare sisteme energetice eficiente",
-    "design": "Proiectare",
-    "design_desc": "Planuri tehnice detaliate și autorizații",
-    "execution": "Execuție",
-    "execution_desc": "Construcție și montaj cu standarde înalte",
-    "maintenance": "Mentenanță",
-    "maintenance_desc": "Service și suport tehnic continuu",
-    "audit": "Audit Energetic",
-    "audit_desc": "Evaluare și optimizare consum energetic",
-    "consulting": "Consultanță",
-    "consulting_desc": "Expertiză tehnică și strategii personalizate"
+    "engineering_systems": "Sisteme Inginerești",
+    "engineering_systems_desc": "Proiectare rețele interne și externe, apă, canalizare, încălzire",
+    "metal_processing": "Prelucrare Metale",
+    "metal_processing_desc": "Revizia supapelor, fabricarea pieselor, lucrări de sudură",
+    "energy_equipment": "Reparații Utilaj Energetic",
+    "energy_equipment_desc": "Reparații pompe, compresoare, turbine și echipament industrial",
+    "heating_systems": "Sisteme de Încălzire",
+    "heating_systems_desc": "Proiectare și instalare sisteme de încălzire moderne",
+    "ventilation": "Ventilare și Condiționare",
+    "ventilation_desc": "Sisteme de ventilare și aer condiționat pentru clădiri",
+    "sanitary": "Instalații Sanitare",
+    "sanitary_desc": "Instalații sanitare complete pentru rezidențial și comercial"
   },
   "spaces": {
     "title": "Spații de Închiriat",
@@ -125,17 +125,17 @@
   },
   "about": {
     "title": "Despre Noi",
-    "subtitle": "Lideri în energie și infrastructură",
+    "subtitle": "Parte a grupului Promstroi, lider în construcții din Moldova",
     "history_title": "Istoria Noastră",
-    "history_text": "Cu peste 20 de ani de experiență, am devenit unul dintre liderii pieței în domeniul ingineriei energetice și managementului de spații. Începând ca o echipă mică de ingineri pasionați, am crescut constant, oferind soluții inovatoare și fiabile clienților noștri.",
+    "history_text": "Energoreparații este o companie a grupului Promstroi, unul dintre cele mai mari antreprenori generali de construcții din Republica Moldova. Afacerea a pornit de la serviciile de reparații a turbinelor, cazanelor industriale, altor utilaj energetic, fiind extinsă în scurt timp la instalații inginerești de apă și canalizare, încălzire, ventilare și condiționare.",
     "mission_title": "Misiunea Noastră",
-    "mission_text": "Oferim soluții complete de inginerie energetică și spații de închiriat de calitate superioară, contribuind la dezvoltarea sustenabilă a afacerilor din Moldova. Ne concentrăm pe excelență, inovație și satisfacția clienților.",
+    "mission_text": "Rapid, eficient și cinstit, Energoreparații a devenit o companie de construcții renumită și bine-cunoscută. Obiectivul nostru este să aplicăm cele mai inovatoare tehnologii în domeniul de inginerie, rețelelor și comunicațiilor, astfel încât clienții să se bucure de serviciile realizate la cel mai bun raport calitate-preț.",
     "certifications_title": "Certificări & Standarde",
     "team_title": "Echipa Noastră",
-    "team_text": "Echipa noastră este formată din ingineri experimentați, arhitecți, manageri de proiect și specialiști în management de proprietăți, toți dedicați să ofere servicii de cea mai înaltă calitate."
+    "team_text": "Suntem o companie care are peste 50 de angajați, 2 hale de producere specializate de energetică și o ambiție foarte mare. Echipa noastră se ocupă de fiecare loc de muncă, gestionând proiecte cu abilitățile și experiența pe care clienții noștri le-au așteptat."
   },
   "footer": {
-    "about_text": "Soluții complete de inginerie energetică și spații de închiriat premium.",
+    "about_text": "Reparații echipament energetic, sisteme inginerești și spații de închiriat. Parte a grupului Promstroi.",
     "quick_links": "Link-uri Rapide",
     "services_links": "Servicii",
     "contact_info": "Contact",

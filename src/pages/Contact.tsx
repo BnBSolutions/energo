@@ -156,7 +156,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">{t('contact.address')}</h3>
                         <p className="text-muted-foreground">
-                          Strada Ștefan cel Mare 154<br />
+                          Strada Vadul lui Vodă 9<br />
                           Chișinău, MD-2012<br />
                           Moldova
                         </p>
@@ -185,10 +185,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">{t('contact.email')}</h3>
                         <a
-                          href="mailto:contact@energiatech.md"
+                          href="mailto:info@energo.md"
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          contact@energiatech.md
+                          info@energo.md
                         </a>
                       </div>
                     </div>

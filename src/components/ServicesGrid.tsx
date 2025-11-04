@@ -9,37 +9,37 @@ export const ServicesGrid = () => {
   const services = [
     {
       icon: Zap,
-      key: 'energy_engineering',
+      key: 'engineering_systems',
       color: 'text-primary',
       bgColor: 'bg-primary/10',
     },
     {
       icon: PenTool,
-      key: 'design',
+      key: 'metal_processing',
       color: 'text-accent',
       bgColor: 'bg-accent/10',
     },
     {
       icon: Hammer,
-      key: 'execution',
+      key: 'energy_equipment',
       color: 'text-primary',
       bgColor: 'bg-primary/10',
     },
     {
       icon: Wrench,
-      key: 'maintenance',
+      key: 'heating_systems',
       color: 'text-accent',
       bgColor: 'bg-accent/10',
     },
     {
       icon: FileSearch,
-      key: 'audit',
+      key: 'ventilation',
       color: 'text-primary',
       bgColor: 'bg-primary/10',
     },
     {
       icon: MessageSquare,
-      key: 'consulting',
+      key: 'sanitary',
       color: 'text-accent',
       bgColor: 'bg-accent/10',
     },

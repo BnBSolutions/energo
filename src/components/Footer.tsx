@@ -23,7 +23,7 @@ export const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center">
                 <Building2 className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-foreground">EnergiaTech</span>
+              <span className="text-xl font-bold text-foreground">Energoreparații</span>
             </Link>
             <p className="text-muted-foreground text-sm mb-4">
               {t('footer.about_text')}
@@ -80,12 +80,12 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">{t('footer.services_links')}</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>{t('services.energy_engineering')}</li>
-              <li>{t('services.design')}</li>
-              <li>{t('services.execution')}</li>
-              <li>{t('services.maintenance')}</li>
-              <li>{t('services.audit')}</li>
-              <li>{t('services.consulting')}</li>
+              <li>{t('services.engineering_systems')}</li>
+              <li>{t('services.metal_processing')}</li>
+              <li>{t('services.energy_equipment')}</li>
+              <li>{t('services.heating_systems')}</li>
+              <li>{t('services.ventilation')}</li>
+              <li>{t('services.sanitary')}</li>
             </ul>
           </div>
 
@@ -95,7 +95,7 @@ export const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
-                <span>Strada Ștefan cel Mare 154, Chișinău, Moldova</span>
+                <span>Strada Vadul lui Vodă 9, Chișinău, Moldova</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="w-4 h-4 text-primary" />
@@ -105,8 +105,8 @@ export const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary" />
-                <a href="mailto:contact@energiatech.md" className="hover:text-primary transition-colors">
-                  contact@energiatech.md
+                <a href="mailto:info@energo.md" className="hover:text-primary transition-colors">
+                  info@energo.md
                 </a>
               </li>
             </ul>
@@ -115,7 +115,7 @@ export const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} EnergiaTech. {t('footer.rights')}
+            © {new Date().getFullYear()} Energoreparații. {t('footer.rights')}
           </p>
         </div>
       </div>

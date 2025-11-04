@@ -63,7 +63,7 @@ export const Header = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center transition-transform group-hover:scale-105">
               <Building2 className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-foreground hidden sm:block">EnergiaTech</span>
+            <span className="text-xl font-bold text-foreground hidden sm:block">Energoreparații</span>
           </Link>
 
           {/* Desktop Navigation */}

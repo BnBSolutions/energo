@@ -7,8 +7,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Energy & Infrastructure for Your Business",
-    "subtitle": "We design, build, and manage reliable solutions. Discover our rental spaces too.",
+    "title": "Repairs & Installations for Your Infrastructure",
+    "subtitle": "Energy equipment repairs, heating systems, water and sewage networks. Part of Promstroi group.",
     "cta_spaces": "View Spaces",
     "cta_contact": "Contact Us"
   },
@@ -21,18 +21,18 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Complete solutions from design to execution and maintenance",
-    "energy_engineering": "Energy Engineering",
-    "energy_engineering_desc": "Design and implementation of efficient energy systems",
-    "design": "Design",
-    "design_desc": "Detailed technical plans and permits",
-    "execution": "Execution",
-    "execution_desc": "Construction and installation with high standards",
-    "maintenance": "Maintenance",
-    "maintenance_desc": "Continuous service and technical support",
-    "audit": "Energy Audit",
-    "audit_desc": "Evaluation and optimization of energy consumption",
-    "consulting": "Consulting",
-    "consulting_desc": "Technical expertise and customized strategies"
+    "engineering_systems": "Engineering Systems",
+    "engineering_systems_desc": "Internal and external network design, water, sewage, heating",
+    "metal_processing": "Metal Processing",
+    "metal_processing_desc": "Valve overhaul, parts fabrication, welding works",
+    "energy_equipment": "Energy Equipment Repairs",
+    "energy_equipment_desc": "Repairs of pumps, compressors, turbines and industrial equipment",
+    "heating_systems": "Heating Systems",
+    "heating_systems_desc": "Design and installation of modern heating systems",
+    "ventilation": "Ventilation & Air Conditioning",
+    "ventilation_desc": "Ventilation and air conditioning systems for buildings",
+    "sanitary": "Sanitary Installations",
+    "sanitary_desc": "Complete sanitary installations for residential and commercial"
   },
   "spaces": {
     "title": "Rental Spaces",
@@ -125,14 +125,14 @@
   },
   "about": {
     "title": "About Us",
-    "subtitle": "Leaders in energy and infrastructure",
+    "subtitle": "Part of Promstroi group, construction leader in Moldova",
     "history_title": "Our History",
-    "history_text": "With over 20 years of experience, we have become one of the market leaders in energy engineering and space management. Starting as a small team of passionate engineers, we have grown steadily, providing innovative and reliable solutions to our clients.",
+    "history_text": "Energoreparații is a company of the Promstroi group, one of the largest general construction contractors in the Republic of Moldova. The business started with repair services for turbines, industrial boilers, and other energy equipment, being quickly expanded to engineering installations for water and sewage, heating, ventilation, and air conditioning.",
     "mission_title": "Our Mission",
-    "mission_text": "We provide complete energy engineering solutions and premium rental spaces, contributing to the sustainable development of businesses in Moldova. We focus on excellence, innovation, and customer satisfaction.",
+    "mission_text": "Fast, efficient, and honest, Energoreparații has become a renowned and well-known construction company. Our goal is to apply the most innovative technologies in the field of engineering, networks, and communications, so that clients can enjoy services at the best quality-price ratio.",
     "certifications_title": "Certifications & Standards",
     "team_title": "Our Team",
-    "team_text": "Our team consists of experienced engineers, architects, project managers, and property management specialists, all dedicated to providing the highest quality services."
+    "team_text": "We are a company with over 50 employees, 2 specialized energy production halls, and great ambition. Our team handles every job, managing projects with the skills and experience our clients have expected."
   },
   "footer": {
     "about_text": "Complete energy engineering solutions and premium rental spaces.",
