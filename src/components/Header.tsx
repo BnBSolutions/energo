@@ -52,7 +52,7 @@ export const Header = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-background/95 backdrop-blur-md shadow-soft border-b border-border'
+          ? 'bg-card/95 backdrop-blur-lg shadow-medium border-b border-border/50'
           : 'bg-transparent'
       }`}
     >
@@ -60,10 +60,10 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center transition-transform group-hover:scale-105">
+            <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-medium">
               <Building2 className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-foreground hidden sm:block">Energoreparații</span>
+            <span className="text-xl font-bold bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent hidden sm:block">Energoreparații</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -72,10 +72,10 @@ export const Header = () => {
               <Link
                 key={item.key}
                 to={item.path}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   isActive(item.path)
-                    ? 'bg-primary/10 text-primary'
-                    : 'text-foreground/70 hover:text-foreground hover:bg-muted'
+                    ? 'bg-primary/15 text-primary shadow-soft'
+                    : 'text-foreground/70 hover:text-foreground hover:bg-muted/80 hover:shadow-soft'
                 }`}
               >
                 {t(`nav.${item.key}`)}
@@ -88,16 +88,16 @@ export const Header = () => {
             {/* Language Switcher */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="sm" className="font-medium">
+                <Button variant="ghost" size="sm" className="font-medium hover:bg-muted/80 transition-all">
                   {languageNames[language]}
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="bg-popover">
+              <DropdownMenuContent align="end" className="bg-popover/95 backdrop-blur-sm border-border/50 shadow-medium">
                 {languages.map((lang) => (
                   <DropdownMenuItem
                     key={lang}
                     onClick={() => setLanguage(lang as Language)}
-                    className={language === lang ? 'bg-primary/10 text-primary' : ''}
+                    className={language === lang ? 'bg-primary/15 text-primary font-medium' : 'hover:bg-muted/80'}
                   >
                     {languageNames[lang]}
                   </DropdownMenuItem>
@@ -111,12 +111,13 @@ export const Header = () => {
               size="icon"
               onClick={toggleTheme}
               aria-label="Toggle theme"
+              className="hover:bg-muted/80 hover:scale-105 transition-all"
             >
               {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
             </Button>
 
             {/* CTA Button */}
-            <Button asChild className="hidden lg:flex bg-gradient-primary">
+            <Button asChild className="hidden lg:flex bg-gradient-primary hover:opacity-90 shadow-soft hover:shadow-medium transition-all">
               <Link to="/spaces">{t('hero.cta_spaces')}</Link>
             </Button>
 
@@ -135,23 +136,23 @@ export const Header = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-border bg-background animate-fade-in">
+          <div className="lg:hidden py-4 border-t border-border/50 bg-card/95 backdrop-blur-lg animate-fade-in shadow-medium">
             <nav className="flex flex-col gap-2">
               {navItems.map((item) => (
                 <Link
                   key={item.key}
                   to={item.path}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
+                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-all ${
                     isActive(item.path)
-                      ? 'bg-primary/10 text-primary'
-                      : 'text-foreground/70 hover:text-foreground hover:bg-muted'
+                      ? 'bg-primary/15 text-primary shadow-soft'
+                      : 'text-foreground/70 hover:text-foreground hover:bg-muted/80'
                   }`}
                 >
                   {t(`nav.${item.key}`)}
                 </Link>
               ))}
-              <Button asChild className="mt-2 bg-gradient-primary">
+              <Button asChild className="mt-2 bg-gradient-primary shadow-soft hover:shadow-medium transition-all">
                 <Link to="/spaces" onClick={() => setIsMobileMenuOpen(false)}>
                   {t('hero.cta_spaces')}
                 </Link>
