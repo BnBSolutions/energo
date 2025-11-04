@@ -7,22 +7,22 @@ export const ClientsSection = () => {
     {
       name: "McDonald's",
       description: "Restaurante McDonalds Chișinău",
-      logo: "🍔"
+      logo: "/images/clients/mcdonalds-logo.png"
     },
     {
       name: "Kellers",
       description: "Kellers Moldova Brewery",
-      logo: "🍺"
+      logo: "/images/clients/kellers-logo.png"
     },
     {
       name: "Termoelectrica",
       description: "Furnizor de energie electrică și termică",
-      logo: "⚡"
+      logo: "/images/clients/termoelectrica-logo.svg"
     },
     {
       name: "Farmacia Familiei",
       description: "Rețea de farmacii din Republica Moldova",
-      logo: "💊"
+      logo: "/images/clients/farmacia-familiei-logo.png"
     }
   ];
 
@@ -42,11 +42,17 @@ export const ClientsSection = () => {
           {clients.map((client, index) => (
             <div
               key={client.name}
-              className="bg-background rounded-2xl p-6 flex flex-col items-center justify-center text-center shadow-soft hover:shadow-medium transition-all duration-300 animate-fade-in"
+              className="bg-background rounded-2xl p-8 flex flex-col items-center justify-center text-center shadow-soft hover:shadow-medium transition-all duration-300 animate-fade-in group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="text-5xl mb-4">{client.logo}</div>
-              <h3 className="font-semibold text-foreground mb-2">{client.name}</h3>
+              <div className="w-full h-24 mb-4 flex items-center justify-center">
+                <img
+                  src={client.logo}
+                  alt={`${client.name} logo`}
+                  className="max-w-full max-h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+                />
+              </div>
+              <h3 className="font-semibold text-foreground mb-1 text-sm">{client.name}</h3>
               <p className="text-xs text-muted-foreground">{client.description}</p>
             </div>
           ))}
