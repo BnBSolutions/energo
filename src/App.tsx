@@ -32,7 +32,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/energo">
           <ScrollToTop />
           <div className="flex flex-col min-h-screen">
             <Header />
